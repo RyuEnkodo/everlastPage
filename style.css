@@ -23,7 +23,7 @@ h1, h2 {
   font-family: 'Mate SC', serif;
   font-weight: 500;
   text-align: center;
-  color: rgb(187, 160, 8); /*rgb(161, 155, 134);*/
+  color: rgb(187, 160, 8); 
 }
 h1 {
     font-size: 6rem;
@@ -62,7 +62,7 @@ img {
     font-size: 2.2rem;
     padding: 2rem;
 }
-.welcome-section {
+.mid-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
