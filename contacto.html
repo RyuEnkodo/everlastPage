@@ -18,16 +18,16 @@
         <nav id="navbar" class="nav">
             <ul class="nav-list">
                 <li>
-                    <a href="index.html">Home</a>
+                    <a class="nav-item" href="index.html">Home</a>
                 </li>
                 <li>
-                    <a href="catalogo.html">Catálogo</a>
+                    <a class="nav-item" href="catalogo.html">Catálogo</a>
                 </li>
                 <li>
-                    <a href="acerca.html">Acerca de...</a>
+                    <a class="nav-item" href="acerca.html">Acerca de...</a>
                 </li>
                 <li>
-                    <a href="contacto.html">Contacto</a>
+                    <a class="nav-item" href="contacto.html">Contacto</a>
                 </li>
             </ul>
         </nav>
@@ -35,9 +35,16 @@
     <!-- FIN NAV -->
     <!-- MAIN -->
     <main>
-        <section class="mid-section">
+        <section class="mid-section-contacto">
             <h1>Contacto</h1>
-            <h2>crear un Form aca o en su defecto un &lt;p&gt; que tenga adentro enlace del tipo mailto para redireccionar hacia un e-mail.</h2>
+            <form action="">
+                <input type="text" name="Nombre" placeholder="Ingrese su nombre">
+                <input type="text" name="Correo" placeholder="Ingrese su correo">
+                <input type="text" name="Teléfono" placeholder="Ingrese su Teléfono">
+                <p><textarea name="Mensaje" placeholder="Escribir mensaje"></textarea></p>
+                <input type="button" value="ENVIAR" id="Boton">
+
+            </form>
         </section>
     </main>
     <!-- FIN MAIN -->
