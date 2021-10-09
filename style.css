@@ -16,16 +16,28 @@ body {
     line-height: 1.4;
 }
 
+.yellow {
+    color: rgb(187, 160, 8);
+}
+
+.hcombo {
+    margin: 15vh auto;
+}
+
 h1, h2 {
-  font-family: 'Mate SC', serif;
-  font-weight: 500;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
   text-align: center;
-  color: rgb(187, 160, 8); 
+  color: rgb(187, 160, 8);
 }
 h1 {
     font-size: 6rem;
 }
-  
+
+.h1-title {
+    margin-bottom: 5rem;;
+}
+
 h2 {
     font-size: 4.2rem;
 }
@@ -59,15 +71,101 @@ img {
     font-size: 2.2rem;
     padding: 2rem;
 }
+.nav-item {
+    transition: transform 0.3s ease-out;
+}
+.nav-item:hover {
+    transform: translateY(8px);
+}
 .mid-section {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
-  height: 100vh;
-  background-color: #000;
+  height: 150vh;
   background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  /* background-image: url("https://cdn.wallpapersafari.com/18/69/Na0Dj5.jpg"); */
+}
+.cards-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.mid-section-acerca {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  }
+
+.card {
+    display: block;
+    width: 300px;
+    padding: 0 0 30px;
+    margin: 30px 5rem;
+    border-radius: 5px;
+    box-shadow: 5px 6px 11px 0px rgba(20,18,20,0.75);
+    -webkit-box-shadow: 5px 6px 11px 0px rgba(20,18,20,0.75);
+    background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
+.card-img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: 180px;
+    display: block;
+}
+.hero-img {
+    width: 20vw;
+    border: 1px solid rgb(187, 160, 8);
+    display: block;
+    width: 350px;
+    margin: 10rem 0 auto;
+    filter: drop-shadow(0 0 10px rgb(187, 160, 8));
+}
+.hero-img:hover {
+    filter: drop-shadow(0 0 40px rgb(187, 160, 8));
+    cursor: pointer;
+}
+.container {
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+.title {
+    color: rgb(187, 160, 8);
+    text-align: center;
+    margin: 20px 0 10px;
+    font-size: 3rem;
+}
+.cta {
+    display: block;
+    background-color: rgb(187, 160, 8);
+    padding: 13px 0;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    width: 150px;
+    margin: 20px auto 25px auto;
+    text-decoration: none;
+}
+
+.cta:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px rgb(187, 160, 8));
+    transition: transform 0.3s ease-in-out;
+}
+.card-text {
+    text-align: center;
+    color: rgb(187, 160, 8);
+    width: 90%;
 }
 footer {
     font-weight: 300;
